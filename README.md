@@ -1,3 +1,6 @@
+## PROJECT COMPLETE LINKS
+This documents contains instructions to build a pipeline for short-term rental prices in NYC. The following links contain a completed [repository](https://github.com/shirley-yu-222/build-ml-pipeline-for-short-term-rental-prices) for the task below and also [W&B](https://wandb.ai/s_yu_222/nyc_airbnb/overview?workspace=user-s_yu_222) platform.
+
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
@@ -7,7 +10,7 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 In this project you will build such a pipeline.
 
 ## Table of contents
-
+- [PROJECT COMPLETE LINKS](#PROJECT-COMPLETE-LINKS)
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
@@ -30,6 +33,7 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
+
 
 ## Preliminary steps
 ### Fork the Starter kit
