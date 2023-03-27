@@ -1,8 +1,5 @@
 """
 Tests for verifying data is as expected and has been processed through the basic_cleaning script.
-
-Author: Shirley Yu
-Date: 23rd Mar 2023
 """
 import pandas as pd
 import numpy as np
