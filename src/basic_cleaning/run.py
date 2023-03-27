@@ -30,6 +30,10 @@ def go(args):
     logger.info("Preprocessing data: converting str to datetime for last_review column")
     df['last_review'] = pd.to_datetime(df['last_review'])
 
+    # making sure long anf lat coordinates are between feasible range
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
+
     df.to_csv("clean_sample.csv", index=False)
 
     # uploading preprocessed data to W&B 
